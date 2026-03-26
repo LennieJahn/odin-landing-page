@@ -1,0 +1,90 @@
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.hero-left {
+    width: 500px;
+    flex-grow: 0;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 30px 0px 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-second-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAf8;
+}
+
+.header, .part-one {
+    background-color: #1f2937;
+}
+
+.part-one, .part-two, .part-three, .part-four {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
