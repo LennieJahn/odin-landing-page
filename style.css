@@ -200,7 +200,7 @@ body {
 
 .signup-left {
     max-height: 80px;
-
+    overflow: hidden;
 }
 
 
