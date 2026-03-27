@@ -14,6 +14,13 @@ body {
     justify-content: center;
 }
 
+.container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .header {
     padding: 5px;
     display: flex;
@@ -22,22 +29,125 @@ body {
     
 }
 
+.header .container{
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAf8;
+}
+
+.header, .part-one {
+    background-color: #1f2937;
+}
 
 .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.container {
+.part-one, .part-two, .part-three, .part-four {
     display: flex;
-    flex-grow: 1;
+    flex: 1;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .hero-left {
     width: 500px;
     flex-grow: 0;
 }
+
+.main-img {
+    width: 300px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.main-img img {
+    height: 200px;
+    width: auto;
+}
+
+
+
+.part-two .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.info-second {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-container {
+    max-width: 200px;  
+}
+
+.img-container {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img-container img {
+   width: auto;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.part-three {
+    background-color: #E5E7EB;
+}
+
+.part-three .container {
+    max-width: 800px;
+    padding: 100px;
+    display: block;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-credits {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 
 
 .footer {
@@ -72,19 +182,5 @@ a {
 }
 
 
-.header-text {
-    font-size: 24px;
-    color: #F9FAf8;
-}
 
-.header, .part-one {
-    background-color: #1f2937;
-}
-
-.part-one, .part-two, .part-three, .part-four {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
 
