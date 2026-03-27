@@ -15,7 +15,6 @@ body {
 
 .container {
     display: flex;
-    flex-grow: 1;
     justify-content: center;
 }
 
@@ -31,7 +30,7 @@ body {
     max-width: 900px;
     justify-content: space-between;
     align-items: center;
-    
+    flex-grow: 1;
 }
 
 .header-text {
@@ -58,8 +57,8 @@ body {
     padding: 40px;
 }
 
-.part.one {
-    justify-content: space-between;
+.part-one {
+    
 }
 
 .part-one .container {
@@ -72,7 +71,7 @@ body {
 }
 
 .hero-left {
-    width: 450px;
+    max-width: 450px;
     flex-grow: 0;
     margin-right: 0px;
     margin-bottom: 20px;
